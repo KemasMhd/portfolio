@@ -19,6 +19,7 @@
 
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <!-- Navbar start -->
@@ -26,21 +27,40 @@
       <a href="#" class="navbar-logo">Kemas<span>!</span></a>
 
       <div class="navbar-nav">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About Me</a>
         <a href="#project">Project</a>
         <a href="#contact">Contact</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" class="hamburger-menu"><i data-feather="menu"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
     <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Hello! I'm Kemas.</h1>
+        <h1>A <span>Web Designer</span> and</h1>
+        <h1><span class="gradient-text">Developer</span></h1>
+        <p>
+          Passionate in front end developer. Familiar with Html Css and
+          Javascript. Like to build fast-performance and well-designed website
+          interfaces using the latest technologies.
+        </p>
+      </main>
+    </section>
+
+    <!-- Hero Section end -->
 
     <!-- Feather Icon -->
     <script>
       feather.replace();
     </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
