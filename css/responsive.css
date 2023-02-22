@@ -55,10 +55,30 @@
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
   }
+
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    object-fit: cover;
+    object-position: center;
+    margin-left: 2rem;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content p {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
 }
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
