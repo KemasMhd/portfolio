@@ -121,13 +121,13 @@ body {
 }
 
 .hero .content h1 span {
-  background: linear-gradient(to right, #ca7de9, #760c8b);
+  background: linear-gradient(to right, #b959df, #760c8b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero .content h1 .gradient-text {
-  background: linear-gradient(to right, #ff3d61, #91132a);
+  background: linear-gradient(to right, #e44c68, #c40024);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
