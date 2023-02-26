@@ -12,11 +12,14 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #fff;
-  min-height: 2000px;
 }
 
 /* Navbar */
@@ -137,11 +140,11 @@ body {
 }
 
 /* About Section */
-.about {
+.about, .project, .contact {
   padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
+.about h2, .project h2, .contact h2{
   color: #000;
   text-align: center;
   font-size: 2.2rem;
@@ -171,4 +174,129 @@ body {
   color: #000;
   margin-top: 1rem;
   font-size: 1.4rem;
+}
+
+/* Project Section */
+.project h2, .contact h2 {
+  margin-bottom: 1.5rem;
+}
+.project p {
+  color: #000;
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.9
+}
+
+.project .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.project .row .project-card {
+  text-align: center;
+  color: #000;
+  padding-bottom: 4rem;
+}
+
+.project .row .project-card img {
+  width: 70%;
+  height: auto;
+}
+
+.project .row .project-card .project-card-title {
+  margin: 1rem auto 0.5rem;
+}
+
+/* Contact Section */
+.contact p {
+  color: #000;
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.9;
+  max-width: 45rem;
+}
+
+.contact .row {
+  display: flex;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  margin: 1rem 15rem;
+}
+
+.contact .row form {
+  flex: 1 1 40rem;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.contact .row form .input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: #5a5a5a;
+  border: 1px solid #000;
+  padding-left: 2rem;
+}
+
+.contact .row form .input-group input {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  background: none;
+  color: #fff;
+}
+
+.contact .row form .btn {
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  color: #fff;
+  background-color: #535353;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 2rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  margin: 1rem;
+  color: var(--bg);
+}
+
+footer .socials a:hover, footer .links a:hover {
+  color: #fff;
+}
+
+footer .links {
+  margin-bottom: 1.3rem;
+}
+
+footer .links a {
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.9rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
 }
