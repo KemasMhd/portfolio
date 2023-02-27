@@ -121,13 +121,13 @@ body {
 }
 
 .hero .content h1 span {
-  background: linear-gradient(to right, #b959df, #760c8b);
+  background: linear-gradient(to right, #b330e1, #5c73b9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero .content h1 .gradient-text {
-  background: linear-gradient(to right, #e44c68, #c40024);
+  background: linear-gradient(to right, #f44369, #3e3b92);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -289,14 +289,14 @@ footer .links a:hover {
   color: #fff;
 }
 
-footer .links {
+/* footer .links {
   margin-bottom: 1.3rem;
 }
 
 footer .links a {
   color: var(--bg);
   padding: 0.5rem 1rem;
-}
+} */
 
 footer .credit {
   font-size: 0.9rem;
